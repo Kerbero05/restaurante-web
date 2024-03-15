@@ -1,0 +1,330 @@
+
+body{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+header{
+    background-color: #ba5353;
+    width: 100%;
+    padding: 5px 0px;
+}
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+nav li{
+display: inline;
+margin: 0 0 0 15px;
+}
+nav a{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+.productos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+.productos li{
+    display:inline-block;
+    text-align: center;
+    width: 24%;
+    vertical-align: top;
+    margin: 0 0%;
+    padding: 3px 3px;
+    box-sizing: border-box;
+    border: 2px solid #ba5353;
+    border-radius: 20px;
+}
+.productos li:hover{
+    border-color:white;
+}
+.productos li:hover{
+    border-color:whitesmoke;
+}
+.productos h2{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5%;
+}
+.productos li:hover h2{
+    font-size: 25px;
+}
+.productoDescripcion{
+    font-size: 18px;
+}
+.productoPrecio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+footer{
+    text-align: center;
+    background: url(productos/pies.png);
+    padding: 40px;
+    width: 100%;
+}
+.imagenChef{
+    max-width:86px;
+}
+.pieDePagina{
+    width: 100%;
+}
+.Copyright{
+    color:#ffffff;
+    font-size: 13px;
+}
+.año{
+    color: #ffffff;
+    font-size: 13px;
+}
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+form{
+    margin: 40px 0;
+}
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+.input-padron{
+    display:block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+.checkbox{
+    margin: 20px 0;
+}
+.enviar{
+width: 25%;
+padding: 10px 0;
+font-size: 18px;
+font-weight: bold;
+color: white;
+background: orangered;
+border: none;
+border-radius: 5px;
+transition: 1s all;
+cursor: pointer;
+}
+.enviar:hover{
+    background: darkorange;
+    transform: scale(1.2);
+}
+
+table{
+    margin: 5px 5px;
+}
+thead{
+    background: #ba5353;
+    color: white;
+    font-weight: bold;
+}
+td,th{
+    border: 1px solid black;
+    padding: 8px 15px;
+}
+/*inicia CSS para nuestra home*/
+
+.banner{
+    width: 100%;
+}
+.principal{
+    padding: 2em 0;
+}
+.titulo-segundario{
+    text-align: center;
+    font-size: 2em;
+    margin: 30px 0 1em;
+    clear: left;
+}
+.principal p{
+margin: -10 0 1em;
+}
+.titulo-principal strong{
+    font-weight: bold;
+}
+.principal em{
+    font-style: italic;
+}
+.imagenTitulo{
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+.mapa{
+padding: 3em 0;
+text-align: center;
+}
+.mapa:hover{
+    opacity: 90%; 
+    transition: 400ms;
+}
+.mapa p{
+    text-align: center;
+    width: 100%;
+    margin: 0px 0 2% 0;
+}
+.tituloNuestros{
+    text-align: center;
+    font-size: 30px;
+    width: auto;
+    padding-bottom: 5%;
+}
+table{
+margin: 0 auto;
+width: auto;
+  }
+.diferenciales{
+    padding: 1em 0;
+}
+.titulo-segundario:before{
+    content: "¡";
+}
+.titulo-segundario:after{
+    content: "!";
+}
+.titulo-segundario:hover{
+    color: chocolate;
+}
+.contenido-diferenciales{
+    width: 640%;
+    margin: 0 auto;
+}
+.lista-diferenciales{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+.items{
+    line-height: 1.5;
+}
+.items:before{
+    content: " ✪";
+}
+.video{
+    width: 100%;
+    text-align: center;
+    margin: 30px 0 5% 0;
+}
+.video:hover{
+    opacity: 90%; 
+    transition: 400ms;
+}
+.relato-final{
+    text-align: center;
+    font-style: italic;
+    margin: 30px 0 5% 0;
+    font-weight: bold;
+}
+
+@media  screen and (max-width:480px){
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+    }
+    .caja{
+        position: static;
+    }
+    .principal{
+        text-align: center; 
+    }
+    .imagenTitulo{
+        text-align: center;
+    }
+    .principal p{
+        text-align: center;
+    }
+.imagenTitulo,.titulo-segundario,.principal em,.titulo-principal strong,.mapa-contenido,.contenido-diferenciales,.lista-diferenciales,.video,.relato-final,.imagenChef{
+        width:auto;
+    }
+    }
+/*inicia CSS para nuestro menu del dia*/
+
+.uno{
+    width: 30%;
+    border-radius: 20px;
+    padding-left: 7cap;
+}
+.dos{
+    width: 30%;
+    border-radius: 20px;
+}
+.tres{
+    width: 30%;
+    border-radius: 20px;
+}
+.cuatro{
+    width: 30%;
+    padding-left: 7cap;
+    border-radius: 20px;
+}
+.cinco{
+    width: 30%;
+    border-radius: 20px;
+}
+.seis{
+    width: 30%;
+    border-radius: 20px;
+}
+.ciete{
+    width: 30%;
+    padding-left: 7cap;
+    border-radius: 20px;
+}
+.ocho{
+    width: 30%;
+    border-radius: 20px;
+    
+}
+.nueve{
+    width: 30%;
+    border-radius: 20px;
+}
+.diez{
+    width: 30%;
+    padding-left: 7cap;
+    border-radius: 20px;
+}
+.once{
+    width: 30%;
+    border-radius: 20px;
+}
+.doce{
+    width: 30%;
+    border-radius: 20px;
+}
+.trece{
+    width: 30%;
+    padding-left: 7cap;
+    border-radius: 20px;
+}
+.catorce{
+    width: 30%;
+    border-radius: 20px;
+}
+.quince{
+    width: 30%;
+    border-radius: 20px;
+}
